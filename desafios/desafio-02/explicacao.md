@@ -15,8 +15,8 @@ _O programa recebe nome, peso e altura por meio de inputs. Atenção aos iputs d
 
 > Por que é necessário usar `float()` ao capturar peso e altura com `input()`? O que aconteceria se usássemos `int()` para a altura `1.75`?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
-Se não fosse utilizado floats não teria como ser inseridos dados que geralmentes são quebrados e não inteiros como altura que utiliza (1.algo) e não (1 metro). geralmente alguém tem um metro virgula alguma coisa e não apenas 1 metro. Dessa forma o float vem para conseguirmos inserir dados numéricos que não são inteiros.
+_Se não fosse utilizado floats não teria como ser inseridos dados que geralmentes são quebrados e não inteiros como altura que utiliza (1.algo) e não (1 metro). geralmente alguém tem um metro virgula alguma coisa e não apenas 1 metro. Dessa forma o float vem para conseguirmos inserir dados numéricos que não são inteiros._
+
 ---
 
 ## Dificuldades encontradas
