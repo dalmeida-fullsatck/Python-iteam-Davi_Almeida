@@ -10,7 +10,7 @@ Para cada cenário, indique a estrutura mais adequada (list/tuple/dict/set) e ju
   c) Código de produto → preço em um catálogo.
   d) Notas de um aluno ao longo do semestre (pode crescer).
   e) Dias úteis da semana (valor fixo, usado como chave de dict).
-
+  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
