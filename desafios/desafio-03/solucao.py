@@ -16,4 +16,3 @@ elif velocidade > 240   :
     print('Velocidade inválida!');
 else : 
     print(f'Você está dentro da legalidade que é {permitido}km/h, tá correto!');
-
