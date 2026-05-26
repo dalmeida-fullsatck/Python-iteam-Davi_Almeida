@@ -1,19 +1,18 @@
 Lista 01 — Questão 02: Tipos e Conversão
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Davi Almeida de Oliveira)
+Data:  (25/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
 Para cada linha abaixo, indique: (a) o tipo do resultado e (b) o valor.
 Responda por raciocínio ANTES de executar. Depois confirme no REPL.
 
-  print(type(10 / 2))         # tipo: ?   valor: ?
-  print(type(10 // 2))        # tipo: ?   valor: ?
-  print(int(3.9))             # tipo: ?   valor: ?
-  print(bool([]))             # tipo: ?   valor: ?
-  print(bool("False"))       # tipo: ?   valor: ?
-  print(str(True) == "True") # tipo: ?   valor: ?
-
+  print(type(10 / 2))         # tipo: float   valor: 5.0
+  print(type(10 // 2))        # tipo: int   valor: 5
+  print(int(3.9))             # tipo: int   valor: 4
+  print(bool([]))             # tipo: boolean ou bool   valor: False
+  print(bool("False"))       # tipo: bool ou boolean   valor: True
+  print(str(True) == "True") # tipo: String   valor: texto
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 

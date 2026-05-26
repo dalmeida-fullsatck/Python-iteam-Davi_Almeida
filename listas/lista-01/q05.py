@@ -15,3 +15,17 @@
 #   print(maior_nota([7.5, 9.0, 6.0, 8.5]))
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+
+
+def maior_nota(notas):
+      maior = 0
+      for nota in notas:
+          if nota > maior:
+              maior = nota  # bug aqui
+      return maior
+print(maior_nota([7.5, 9.0, 6.0, 8.5]))
+"""
+O Bug é apenas um '=' a mais que tinha, dois '=' no caso == é comparação 
+'isso for igual a isso'
+já o de igual sozinho iguala o que tem dentro de uma para a outra.
+"""

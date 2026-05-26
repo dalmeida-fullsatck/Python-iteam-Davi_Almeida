@@ -1,6 +1,6 @@
 Lista 01 — Questão 01: Modelo de Memória
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Davi Almeida de Oliveira)
+Data:  (25/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,11 @@ Código:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(Se utilizássemos para copiar o 'b = a' vamos estar criando um ponteiro e dessa forma não vamos 
+estar apenas copiando o conteúdo, mas tudo o que fizermos nessa variável que copiou automatica-
+-mente vai passar para a variável que colou o seu conteúdo. Não vamos copiar conteúdo e sim posi-
+-ção de Memória.
+
+Da forma que foi feito a segunda cópia está 'correto' pois nesse caso é colado apenas o conteúdo 
+e não altera a variável que copiada caso a variável que colada sofrer mudanças.)
 
