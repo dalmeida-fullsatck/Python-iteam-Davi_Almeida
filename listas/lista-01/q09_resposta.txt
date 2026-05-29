@@ -19,3 +19,24 @@ SUA RESPOSTA:
 
 (escreva aqui com suas próprias palavras)
 
+===============================================|
+========[DAVI ALMEIDA DE OLIVEIRA]=============|
+    def dividir(a, b):
+        try:
+            resultado_divisao =  a / b
+        except ZeroDivisionError: 
+            print('Não tem como dividir por 0')
+        return resultado_divisao
+=================================================
+
+EAFP significa Easier to Ask for Forgiveness than Persmission 
+Significa algo como é melhor pedir perdão do que pedir permissão é o ponto contrário de
+LYBL significa Look Before You Leap - Meio que olhe antes pular.
+
+EAFP tenta executar o que deve ser executado logo, SE der erro esse erro é tratado por Exception.
+LYBL primeiro verifica se irá dar certo para depois tentar fazer.
+
+
+A Versão mais Pythônica é a EAFP pois gasta menos tempo tratando o possível erro do que verificando todas as vezes. 
+
+
