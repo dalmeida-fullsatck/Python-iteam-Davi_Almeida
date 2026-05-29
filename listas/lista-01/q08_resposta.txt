@@ -11,5 +11,17 @@ Em que situação é correto usar is em código profissional?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(O (==) Compara os valores dentro das variáveis. O 'is' verifica se apontam para o mesmo endereço.
+
+Em outras palavras 
+A : Tem um fiat uno 
+B : Tem um fiat uno 
+
+O operador '==' pergunta se ELES DOIS  tem um fiat uno, e sim, os dois tem um fiat uno
+
+O is pergunta se o fiat uno do A é o mesmo carro do B
+Não o mesmo modelo e cor, mas a mesma placa, mesmo chassi. LITERALMENTE O MESMO CARRO 
+
+Pra esse segundo exemplo pense que A e B têm um relacionamento conjugal, então A tem um fiat
+B tem um carro. Mas não existe dois carros, é apenas 1_)
 
