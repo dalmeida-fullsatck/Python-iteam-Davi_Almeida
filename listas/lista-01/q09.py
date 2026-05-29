@@ -14,3 +14,9 @@
 # Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythônica.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+def dividir(a, b):
+        try:
+            resultado_divisao =  a / b
+        except ZeroDivisionError: 
+            print('Não tem como dividir por 0')
+        return resultado_divisao
