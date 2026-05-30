@@ -20,3 +20,5 @@ def dividir(a, b):
         except ZeroDivisionError: 
             print('Não tem como dividir por 0')
         return resultado_divisao
+
+print(dividir(0,10))

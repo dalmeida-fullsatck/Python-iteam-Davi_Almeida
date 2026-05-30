@@ -19,5 +19,30 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+def processar_alunos(alunos={}):
+      aprovados = {}
+      for nome, nota in alunos.items():
+          if nota >= 7.0:
+              aprovados[nome] = nota 
+      return aprovados
 
+(escreva aqui com suas próprias palavras)
+(1) definição da função - 
+
+Alunos não recebe uma lista, na verdade já definir como uma dict que vai ser é 
+é uma boa prática já que caso não houvesse declarações na hora de utilizar a função ela quebraria.
+Agora se já definido alunos como um dict nao vai dar erro, mas sim dar uma dict vazia.
+
+
+(2) como o loop é escrito
+
+A forma de percorrer o dicionário está incorreta, o python nos permite facilitar e muito algumas funções
+como por exemplo o for ele poderia só criar uma variável local e percorrer a lista, mas isso era apenas se
+estivéssemos lidando com uma lista, mas nesse caso estamos lidando com um dict, nesse caso é necessário a 
+chave: valor 
+chave = nome : valor = nota
+A função pythônica nativa .items() entrega chave e valor, ele é característico de uma dict por isso
+
+(3) como a lista é construída.
+aprovados = [] está incorreto pois o '[]' indicam que aprovados são uma lista, o certo seria 
+aprovados = {} Dessa forma está correto, pois ele já 'espera' uma dict
